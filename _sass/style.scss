@@ -1,31 +1,76 @@
 
+body{
+    font-family: "Arial","Verdana","Open Sans";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(50, 43, 128);
+}
+.manu ul{
+   padding: 0;
+   margin: 0;
+   li{
+       display: inline-block;
+       margin-top: 12px;
+       margin-bottom: 150px;
+       
+   }
+   a{
+       text-decoration: underline;
+       margin-right: 12px;
+       
+   }
+}
+
 .textTitle{
     position: relative;
-    span{
+    .ppp{
         color: #111;
+        font-size: 10px;
+        font-family: "Times New Roman";
+        line-height: 12px;
     }
     h1{
-        font-size: 26px;
-        font-weight: 700;
-        color: rgb(115, 197, 165);
-        text-transform: capitalize;
+        color: rgb(50, 43, 128);
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 9px;
+
     }
     h6{
-        font-size: 11px;
-        font-weight: 300;
-        
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 18px;
+        margin-top: 12px;
+        color: rgb(50, 43, 128);
+
     }
     p{
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 300;
+        text-align: justify;
+        line-height: 20px;
+        margin-top: 12px;
+
+    }
+    .emailinfo{
+        margin-bottom: 30px;
+        line-height: 30px;
+        a{
+            color: rgb(50, 43, 128)!important;
+        }
+
     }
     h5{
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 400;
         color: #333;
+        margin-bottom: 18px;
     }
-    h2{
-        font-size: 22px;
-        font-weight: 700;
-    }
+
 }

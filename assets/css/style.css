@@ -1,22 +1,57 @@
+body {
+  font-family: "Arial","Verdana","Open Sans"; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #322b80; }
+
+.manu ul {
+  padding: 0;
+  margin: 0; }
+  .manu ul li {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 150px; }
+  .manu ul a {
+    text-decoration: underline;
+    margin-right: 12px; }
+
 .textTitle {
   position: relative; }
-  .textTitle span {
-    color: #111; }
+  .textTitle .ppp {
+    color: #111;
+    font-size: 10px;
+    font-family: "Times New Roman";
+    line-height: 12px; }
   .textTitle h1 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #73c5a5;
-    text-transform: capitalize; }
+    color: #322b80;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 9px; }
   .textTitle h6 {
-    font-size: 11px;
-    font-weight: 300; }
-  .textTitle p {
-    font-size: 13px;
-    font-weight: 300; }
-  .textTitle h5 {
     font-size: 16px;
     font-weight: 600;
-    color: #333; }
-  .textTitle h2 {
-    font-size: 22px;
-    font-weight: 700; }
+    margin-bottom: 18px;
+    margin-top: 12px;
+    color: #322b80; }
+  .textTitle p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 12px; }
+  .textTitle .emailinfo {
+    margin-bottom: 30px;
+    line-height: 30px; }
+    .textTitle .emailinfo a {
+      color: #322b80 !important; }
+  .textTitle h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 18px; }
