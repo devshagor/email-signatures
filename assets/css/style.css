@@ -57,7 +57,7 @@ a {
     margin-bottom: 18px; }
 
 .bannar {
-  width: 640px;
+  width: 636px;
   height: 112px;
   background: #fafafa;
   box-shadow: 0px 0px 12px #e0e0e0; }
@@ -66,7 +66,8 @@ a {
     height: auto;
     float: left;
     margin-right: 15px;
-    margin-top: 1%; }
+    margin-top: 1%;
+    margin-left: 8px; }
     .bannar .bangarimg img {
       width: auto;
       height: 60px;
