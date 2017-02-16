@@ -11,19 +11,19 @@ a{
     color: rgb(50, 43, 128);
 }
 .manu ul{
-   padding: 0;
-   margin: 0;
-   li{
-       display: inline-block;
-       margin-top: 12px;
-       margin-bottom: 150px;
-       
-   }
-   a{
-       text-decoration: underline;
-       margin-right: 12px;
-       
-   }
+    padding: 0;
+    margin: 0;
+    li{
+        display: inline-block;
+        margin-top: 12px;
+        margin-bottom: 150px;
+
+    }
+    a{
+        text-decoration: underline;
+        margin-right: 12px;
+
+    }
 }
 
 .textTitle{
@@ -74,3 +74,73 @@ a{
     }
 
 }
+.bannar{
+    width: 640px;
+    height: 112px;
+    background: #fafafa;
+    box-shadow: (0px 0px 12px #e0e0e0);
+        .bangarimg{
+        width: 30%;
+        height: auto;
+        float:left;
+        margin-right: 15px;
+        margin-top: 1%;
+        img{
+            width: auto;
+            height: 60px;
+            transform: scale(1);
+            transition:all ease 100ms;
+            -moz-transition:all ease 100ms;
+            -webkit-transition:all ease 100ms;
+            -o-transition:all ease 100ms;
+            &:hover{
+                transform: scale(1.02);
+            }
+        }
+        h2{
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+    }
+    .bangarimg1{
+        width: 28%;
+        height: auto;
+        float: left;
+        margin-top: 4%;
+        margin-left: 25px;
+        img{
+            width: auto;
+            height: 60px;
+            transform: scale(1);
+            transition:all ease 100ms;
+            -moz-transition:all ease 100ms;
+            -webkit-transition:all ease 100ms;
+            -o-transition:all ease 100ms;
+            &:hover{
+                transform: scale(1.02);
+            }
+        }
+    }
+    .bangarimg2{
+        width: 25%;
+        height: auto;
+        float: left;
+        margin-top: 4%;
+        margin-left: 25px;
+        img{
+            width: auto;
+            height: 60px;
+            transform: scale(1);
+            transition:all ease 100ms;
+            -moz-transition:all ease 100ms;
+            -webkit-transition:all ease 100ms;
+            -o-transition:all ease 100ms;
+
+            &:hover{
+               transform: scale(1.02);
+            }
+        }
+    }
+}
+
