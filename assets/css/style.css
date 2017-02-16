@@ -24,7 +24,7 @@ a {
   position: relative; }
   .textTitle .ppp {
     color: #111;
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Times New Roman";
     line-height: 12px; }
   .textTitle h1 {
@@ -55,3 +55,61 @@ a {
     font-weight: 400;
     color: #333;
     margin-bottom: 18px; }
+
+.bannar {
+  width: 640px;
+  height: 112px;
+  background: #fafafa;
+  box-shadow: 0px 0px 12px #e0e0e0; }
+  .bannar .bangarimg {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-top: 1%; }
+    .bannar .bangarimg img {
+      width: auto;
+      height: 60px;
+      transform: scale(1);
+      transition: all ease 100ms;
+      -moz-transition: all ease 100ms;
+      -webkit-transition: all ease 100ms;
+      -o-transition: all ease 100ms; }
+      .bannar .bangarimg img:hover {
+        transform: scale(1.02); }
+    .bannar .bangarimg h2 {
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 12px; }
+  .bannar .bangarimg1 {
+    width: 28%;
+    height: auto;
+    float: left;
+    margin-top: 4%;
+    margin-left: 25px; }
+    .bannar .bangarimg1 img {
+      width: auto;
+      height: 60px;
+      transform: scale(1);
+      transition: all ease 100ms;
+      -moz-transition: all ease 100ms;
+      -webkit-transition: all ease 100ms;
+      -o-transition: all ease 100ms; }
+      .bannar .bangarimg1 img:hover {
+        transform: scale(1.02); }
+  .bannar .bangarimg2 {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-top: 4%;
+    margin-left: 25px; }
+    .bannar .bangarimg2 img {
+      width: auto;
+      height: 60px;
+      transform: scale(1);
+      transition: all ease 100ms;
+      -moz-transition: all ease 100ms;
+      -webkit-transition: all ease 100ms;
+      -o-transition: all ease 100ms; }
+      .bannar .bangarimg2 img:hover {
+        transform: scale(1.02); }
