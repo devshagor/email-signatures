@@ -27,7 +27,7 @@ a {
     font-size: 11px;
     font-family: "Times New Roman";
     line-height: 12px; }
-  .textTitle img {
+  .textTitle .namelogo {
     width: auto;
     height: 40px;
     margin: 10px 0; }
@@ -77,14 +77,15 @@ a {
       font-weight: 400;
       margin-bottom: 12px; }
   .bannar .bangarimg1 {
-    width: 28%;
-    height: auto;
+    width: auto;
+    height: 40px;
     float: left;
-    margin-top: 4%;
-    margin-left: 25px; }
+    margin-top: 9.5%;
+    margin-left: 25px;
+    margin-right: 20px; }
     .bannar .bangarimg1 img {
       width: auto;
-      height: 40px;
+      height: 26px;
       transform: scale(1);
       transition: all ease 100ms; }
       .bannar .bangarimg1 img:hover {
@@ -93,11 +94,11 @@ a {
     width: 25%;
     height: auto;
     float: left;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: 7px; }
     .bannar .bangarimg2 img {
       width: auto;
-      height: 40px;
+      height: 43px;
       transform: scale(1);
       transition: all ease 100ms; }
       .bannar .bangarimg2 img:hover {

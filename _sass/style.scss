@@ -34,7 +34,7 @@ a{
         font-family: "Times New Roman";
         line-height: 12px;
     }
-    img{
+    .namelogo{
         width: auto;
         height: 40px;
         margin: 10px 0;
@@ -98,14 +98,15 @@ a{
         }
     }
     .bangarimg1{
-        width: 28%;
-        height: auto;
+        width: auto;
+        height: 40px;;
         float: left;
-        margin-top: 4%;
+        margin-top: 9.5%;
         margin-left: 25px;
+        margin-right: 20px;
         img{
             width: auto;
-            height: 40px;
+            height: 26px;;
             transform: scale(1);
             transition:all ease 100ms;
             &:hover{
@@ -117,11 +118,11 @@ a{
         width: 25%;
         height: auto;
         float: left;
-        margin-top: 4%;
+        margin-top: 5%;
         margin-left: 7px;
         img{
             width: auto;
-            height: 40px;
+            height: 43px;
             transform: scale(1);
             transition:all ease 100ms;
             &:hover{
