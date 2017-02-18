@@ -28,8 +28,8 @@ a {
     font-family: "Times New Roman";
     line-height: 12px; }
   .textTitle img {
-    width: 250px;
-    height: auto;
+    width: auto;
+    height: 40px;
     margin: 10px 0; }
   .textTitle h6 {
     font-size: 16px;
