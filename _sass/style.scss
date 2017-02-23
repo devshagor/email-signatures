@@ -1,134 +1,51 @@
-
-body{
-    font-family: "Arial","Verdana","Open Sans";
-}
 *{
     padding: 0;
     margin: 0;
 }
-a{
-    text-decoration: none;
-    color: rgb(50, 43, 128);
+body{
+    font-family: "Arial","Verdana","Open Sans";
 }
-.manu ul{
-    padding: 0;
-    margin: 0;
-    li{
-        display: inline-block;
-        margin-top: 12px;
-        margin-bottom: 150px;
-
-    }
-    a{
-        text-decoration: underline;
-        margin-right: 12px;
-
-    }
+p{
+    font-family: 'Verdana';
+    font-size: 13px;
+    font-weight: 300;
 }
-
-.textTitle{
-    position: relative;
-    .ppp{
-        color: #111;
-        font-size: 11px;
-        font-family: "Times New Roman";
-        line-height: 12px;
-    }
-    .namelogo{
-        width: auto;
-        height: 40px;
-        margin: 10px 0;
-    }
-    h6{
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 18px;
-        margin-top: 12px;
-        color: rgb(50, 43, 128);
-
-    }
+.Regards{
+    padding-top: 20px;
+}
+.Mission_heading{
+    width: 100%;
+    height: 100%;
+    color: rgb(196, 89, 17);
+    padding-bottom: 32px;
+}
+.heading{
+    font-weight: 700;
+    color: #222;
+    padding: 30px 0 40px;;
+}
+.address{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+    padding-top: 13px;
     p{
-        font-size: 12px;
-        font-weight: 300;
-        text-align: justify;
-        line-height: 20px;
-        margin-top: 12px;
-
-    }
-    .emailinfo{
-        margin-bottom: 30px;
-        line-height: 30px;
-        a{
-            color: rgb(50, 43, 128)!important;
-        }
-
-    }
-    h5{
-        font-size: 16px;
-        font-weight: 400;
-        color: #333;
-        margin-bottom: 18px;
-    }
-
-}
-.bannar{
-    width: 460px;
-    height: 100px;
-    background: #fafafa;
-    box-shadow: (0px 0px 12px #e0e0e0);
-        .bangarimg{
-        width: 30%;
-        height: auto;
-        float:left;
-        margin-top: 1%;
-        margin-left: 8px;
-        img{
-            width: auto;
-            height: 40px;
-            transform: scale(1);
-            transition:all ease 100ms;
-            &:hover{
-                transform: scale(1.02);
-            }
-        }
-        h2{
-            font-size: 12px;
-            font-weight: 400;
-            margin-bottom: 12px;
-        }
-    }
-    .bangarimg1{
-        width: auto;
-        height: 40px;;
-        float: left;
-        margin-top: 9.5%;
-        margin-left: 25px;
-        margin-right: 20px;
-        img{
-            width: auto;
-            height: 26px;;
-            transform: scale(1);
-            transition:all ease 100ms;
-            &:hover{
-                transform: scale(1.02);
-            }
-        }
-    }
-    .bangarimg2{
-        width: 25%;
-        height: auto;
-        float: left;
-        margin-top: 5%;
-        margin-left: 7px;
-        img{
-            width: auto;
-            height: 43px;
-            transform: scale(1);
-            transition:all ease 100ms;
-            &:hover{
-               transform: scale(1.02);
-            }
+        font-size: 13px;
+        color: #222;
+        span{
+            font-weight: 700;
         }
     }
 }
+.consider{
 
+}
+.msg_details{
+    padding: 25px 0;
+    width: 100%;
+    height: 100%;
+}
+.mission_details{
+    width: 100%;
+    height: 100%;
+}
